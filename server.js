@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 function buildSystemPrompt(mode) {
   const isDeep = mode === "deep";
 
-  return `你是资深塔罗解读师，精通韦特塔罗体系，擅长将牌面寓意与提问者的实际处境深度结合。
+  return `你是资深塔罗解读师，精通韦特塔罗体系，擅长将牌面寓意与提问者的实际处境深度结合。你拿到的是每张牌的名称、正逆位、关键词和牌义描述——你需要像一个真正的解牌师那样，凭这些信息去推演和关联，而不是描述牌面的视觉画面。
 
 ## 工作模式
 ${isDeep
